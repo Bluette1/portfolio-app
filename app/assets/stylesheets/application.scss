@@ -14,12 +14,55 @@
  *= require_self
  */
 
- body {
+body {
     position: relative;
-    width: 1440px;
-    height: 3161px;
-    
-    background: #FFFFFF;
- }
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
 
- 
+.ellipse {
+    border-radius: 50%;
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    left: 90px;
+    top: 47px;
+    background: #4456FB;
+}
+
+.cp {
+    position: absolute;
+    width: 43px;
+    height: 29px;
+    left: 114px;
+    top: 75px;
+    font-family: Poppins, Consolas, monaco, "Ubuntu Mono", courier, monospace;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 105.3%;
+    color: #FFFFFF;
+}
+
+.intro {
+    position: absolute;
+    width: 193px;
+    height: 276px;
+    left: 90px;
+    top: 215px;
+    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 338.5%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color: #4456FB;
+}
+
+.intro {
+    padding-left: 0;
+}

@@ -1,3 +1,11 @@
+.main-body {
+    position: relative;
+    width: 1440px;
+    height: 3161px;
+    background: #FFFFFF;
+    top: -260px;
+}
+
 .background-header {
     position: absolute;
     width: 1880px;
@@ -12,7 +20,7 @@
     height: 686px;
     left: 301px;
     top: -1px;
-    background: linear-gradient(257.1deg, #AE5BD6 27.51%, #4052F0 113.53%);
+    background: linear-gradient(257.1deg, #AE5BD6 27.51%, #4052F0 113.53%), url(asset_path('shutterstock.png'));
     background-blend-mode: screen;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
@@ -67,47 +75,6 @@
     font-size: 16px;
     line-height: 22px;
     color: #FFFFFF;
-}
-
-.ellipse {
-    border-radius: 50%;
-    position: absolute;
-    width: 86px;
-    height: 86px;
-    left: 90px;
-    top: 47px;
-    background: #4456FB;
-}
-
-.cp {
-    position: absolute;
-    width: 43px;
-    height: 29px;
-    left: 114px;
-    top: 75px;
-    font-family: Poppins, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 28px;
-    line-height: 105.3%;
-    color: #FFFFFF;
-}
-
-.intro {
-    position: absolute;
-    width: 193px;
-    height: 276px;
-    left: 90px;
-    top: 215px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 338.5%;
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    color: #4456FB;
 }
 
 .works-social-media {

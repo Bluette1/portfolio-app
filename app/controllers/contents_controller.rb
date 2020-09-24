@@ -1,5 +1,4 @@
 class ContentsController < ApplicationController
-  before_action :set_content, only: [:show, :edit, :update, :destroy]
 
   # GET /contents
  
@@ -9,6 +8,5 @@ class ContentsController < ApplicationController
 
   # GET /details
   def show
-    
   end
 end
