@@ -1,12 +1,8 @@
 class ContentsController < ApplicationController
-
   # GET /contents
- 
-  def index
-    
-  end
+
+  def index; end
 
   # GET /details
-  def show
-  end
+  def show; end
 end

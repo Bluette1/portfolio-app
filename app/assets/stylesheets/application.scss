@@ -15,59 +15,56 @@
  */
 
 body {
-    position: relative;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .ellipse {
-    border-radius: 50%;
-    position: absolute;
-    width: 86px;
-    height: 86px;
-    left: 90px;
-    top: 47px;
-    background: #4456FB;
+  border-radius: 50%;
+  position: absolute;
+  width: 86px;
+  height: 86px;
+  left: 90px;
+  top: 47px;
+  background: #4456fb;
 }
 
 .cp {
-    position: absolute;
-    width: 43px;
-    height: 29px;
-    left: 114px;
-    top: 75px;
-    font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 28px;
-    line-height: 105.3%;
-    color: #FFFFFF;
+  position: absolute;
+  width: 43px;
+  height: 29px;
+  left: 114px;
+  top: 75px;
+  font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 105.3%;
+  color: #fff;
 }
 
 .intro {
-    position: absolute;
-    width: 193px;
-    height: 276px;
-    left: 90px;
-    top: 215px;
-    font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 338.5%;
-    list-style: none;
-    color: #4456FB;
-}
-
-.intro {
-    padding-left: 0;
+  position: absolute;
+  width: 193px;
+  height: 276px;
+  left: 90px;
+  top: 215px;
+  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 338.5%;
+  list-style: none;
+  color: #4456fb;
+  padding-left: 0;
 }
 
 .intro a:hover,
 .portfolio a:hover,
 .about a:hover,
 .contact a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
