@@ -17,7 +17,7 @@ This is my portfolio website project.
 
 ## Live Demo
 
-[Deployed site]()
+[Deployed site](https://portfolio-ms-app.herokuapp.com/)
 
 ### Run instructions 
 -  You can clone the GitHub repo and type the following commands in the terminal to run the bot locally 
