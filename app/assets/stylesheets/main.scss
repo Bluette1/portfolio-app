@@ -1,595 +1,607 @@
-.main-body {
-    position: relative;
-    width: 1440px;
-    height: 3161px;
-    background: #FFFFFF;
-    top: -260px;
-}
-
-.background-header {
-    position: absolute;
-    width: 1880px;
-    height: 1056px;
-    left: 283px;
-    top: -170px;
-}
-
-.page-header {
-    position: absolute;
-    width: 1139px;
-    height: 686px;
-    left: 301px;
-    top: -1px;
-    background: linear-gradient(257.1deg, #AE5BD6 27.51%, #4052F0 113.53%), url(asset_path('shutterstock.png'));
-    background-blend-mode: screen;
-    transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-
-.name-section {
-    position: absolute;
-    width: 721px;
-    height: 100px;
-    left: 513px;
-    top: 160px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 88px;
-    line-height: 105.3%;
-    color: #FFFFFF;
-}
-
-.rectangle-icons {
-    position: absolute;
-    width: 833px;
-    height: 51px;
-    left: 517px;
-    top: 417px;
-    background: #FFFFFF;
-    border-radius: 60px;
-}
-
-.occupation {
-    position: absolute;
-    width: 531px;
-    height: 29px;
-    left: 515px;
-    top: 251px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 165.3%;
-    color: #FFFFFF;
-}
-
-.description {
-    position: absolute;
-    width: 406px;
-    height: 136px;
-    left: 517px;
-    top: 305px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    color: #FFFFFF;
-}
-
-.works-social-media {
-    position: absolute;
-    width: 254px;
-    height: 34px;
-    left: 545px;
-    top: 434px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #4F5461;
-}
-
-.github-icon {
-    position: absolute;
-    width: 27.46px;
-    height: 27px;
-    left: 1013px;
-    top: 429px;
-    background: #4253F1;
-}
-
-.twitter-icon {
-    position: absolute;
-    width: 27px;
-    height: 22.31px;
-    left: 1054px;
-    top: 431px;
-    background: #4152ED;
-}
-
-.linkedin-icon {
-    position: absolute;
-    width: 16.16px;
-    height: 16.28px;
-    left: 1103.54px;
-    top: 438.29px;
-    background: #DADADA;
-}
-
-.angellist-icon {
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    left: 1134px;
-    top: 428px;
-    background: #F9855B;
-}
-
-.medium-icon {
-    position: absolute;
-    left: 81.98%;
-    right: 16.72%;
-    top: 13.74%;
-    bottom: 85.79%;
-    background: #FFFFFF;
-}
-
-.portfolio-title {
-    position: absolute;
-    width: 531px;
-    height: 29px;
-    left: 515px;
-    top: 710px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 105.3%;
-    color: #4F5461;
-}
-
-.project-1 {
-    position: absolute;
-    width: 406px;
-    height: 280px;
-    left: 517px;
-    top: 788px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    box-sizing: border-box;
-    border-radius: 10px;
-}
-
-.project-2 {
-    position: absolute;
-    width: 406px;
-    height: 280px;
-    left: 944px;
-    top: 788px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
-    border-radius: 10px;
-}
-
-.project-3 {
-    position: absolute;
-    width: 406px;
-    height: 280px;
-    left: 517px;
-    top: 1085px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
-    border-radius: 10px;
-}
-
-.project-4 {
-    position: absolute;
-    width: 406px;
-    height: 280px;
-    left: 944px;
-    top: 1085px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
-    border-radius: 10px;
-}
-
-.project-5 {
-    position: absolute;
-    width: 406px;
-    height: 280px;
-    left: 517px;
-    top: 1382px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(image.png);
-    border-radius: 10px;
-}
-
-.project-6 {
-    position: absolute;
-    width: 406px;
-    height: 280px;
-    left: 944px;
-    top: 1382px;
-    background: url(image.png);
-    border-radius: 10px;
-}
-
-.about-me {
-    position: absolute;
-    width: 122px;
-    height: 29px;
-    left: 517px;
-    top: 1762px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 105.3%;
-    color: #4F5461;
-}
-
-.details {
-    position: absolute;
-    width: 405px;
-    height: 111px;
-    left: 517px;
-    top: 1814px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 22px;
-    color: #737986;
-}
-
-.resume {
-    position: absolute;
-    width: 193px;
-    height: 59px;
-    left: 517px;
-    top: 1925px;
-    background: #4456FB;
-    border-radius: 60px;
-}
-
-.get-my-resume {
-    position: absolute;
-    width: 156.12px;
-    height: 19px;
-    left: 537.44px;
-    top: 1947px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 105.3%;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.languages {
-    position: absolute;
-    width: 266px;
-    height: 341px;
-    left: 517px;
-    top: 2034px;
-    background: #F5F8FD;
-    border-radius: 10px;
-}
-
-.languages-title {
-    position: absolute;
-    width: 109px;
-    height: 23px;
-    left: 545px;
-    top: 2065px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 105.3%;
-    color: #4F5461;
-}
-
-.languages-list {
-    position: absolute;
-    width: 211px;
-    height: 194px;
-    left: 545px;
-    top: 2106px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 242.5%;
-    color: #737986;
-}
-
-.languages-list ul,
-.frameworks-list ul,
-.skills-list ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.frameworks {
-    position: absolute;
-    width: 267px;
-    height: 341px;
-    left: 800px;
-    top: 2034px;
-    background: #F5F8FD;
-    border-radius: 10px;
-}
-
-.frameworks-title {
-    position: absolute;
-    width: 122px;
-    height: 23px;
-    left: 826px;
-    top: 2065px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 105.3%;
-    color: #4F5461;
-}
-
-.frameworks-list {
-    position: absolute;
-    width: 217px;
-    height: 232px;
-    left: 826px;
-    top: 2106px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 242.5%;
-    color: #737986;
-}
-
-.skills {
-    position: absolute;
-    width: 266px;
-    height: 341px;
-    left: 1084px;
-    top: 2034px;
-    background: #F5F8FD;
-    border-radius: 10px;
-}
-
-.skills-title {
-    position: absolute;
-    width: 55px;
-    height: 23px;
-    left: 1113px;
-    top: 2065px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 105.3%;
-    color: #4F5461;
-}
-
-.skills-list {
-    position: absolute;
-    width: 216px;
-    height: 232px;
-    left: 1113px;
-    top: 2106px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 242.5%;
-    color: #737986;
-}
-
-.interested-title {
-    position: absolute;
-    width: 345px;
-    height: 29px;
-    left: 517px;
-    top: 2475px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 105.3%;
-    color: #4F5461;
-}
-
-.interested-content {
-    position: absolute;
-    width: 590px;
-    height: 84px;
-    left: 517px;
-    top: 2532px;
-    font-family: Poppins, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #737986;
-}
-
-.footer-shape {
-    position: absolute;
-    width: 1139px;
-    height: 556px;
-    left: 301px;
-    // top: 3167px;
-    top: 2600px;
-    background: linear-gradient(234.04deg, #7F38DA 0%, #4052F0 71.02%);
-    transform: matrix(1, 0, 0, -1, 0, 0);
-}
-
-.message {
-    position: absolute;
-    width: 672px;
-    height: 185px;
-    left: 517px;
-    top: 2691px;
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.07);
-    box-sizing: border-box;
-    box-shadow: 0px 7px 15px rgba(95, 104, 186, 0.13);
-    border-radius: 14px;
-}
-
-.message-placeholder {
-    position: absolute;
-    width: 135px;
-    height: 30px;
-    left: 537px;
-    top: 2707px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    color: #91959E;
-}
-
-.name-email {
-    position: absolute;
-    width: 332px;
-    height: 59px;
-    left: 517px;
-    top: 2611px;
-    background: #FFFFFF;
-    border: 1px solid #ACCDFF;
-    box-sizing: border-box;
-    box-shadow: 0px 7px 15px rgba(95, 104, 186, 0.13);
-    border-radius: 14px;
-}
-
-.your-name {
-    position: absolute;
-    width: 135px;
-    height: 30px;
-    left: 539px;
-    top: 2629px;
-    font-family: Poppins, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #737986;
-}
-
-.email {
-    position: absolute;
-    width: 323px;
-    height: 59px;
-    left: 866px;
-    top: 2611px;
-    background: #FFFFFF;
-    border: 1px solid rgba(0, 0, 0, 0.07);
-    box-sizing: border-box;
-    box-shadow: 0px 7px 15px rgba(95, 104, 186, 0.13);
-    border-radius: 14px;
-}
-
-.your-email {
-    position: absolute;
-    width: 135px;
-    height: 30px;
-    left: 886px;
-    top: 2625px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    color: #91959E;
-}
-
-.get-in-touch {
-    position: absolute;
-    width: 242px;
-    height: 59px;
-    left: 517px;
-    top: 2917px;
-    background: #FA4969;
-    border-radius: 60px;
-}
-
-.get-in-touch-message {
-    position: absolute;
-    width: 165.58px;
-    height: 30px;
-    left: 558.85px;
-    top: 2940px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 105.3%;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.my-email {
-    position: absolute;
-    width: 177px;
-    height: 34px;
-    left: 1191px;
-    top: 2940px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #C5CBFE;
-}
-
-.footer-github-icon {
-    position: absolute;
-    width: 27.46px;
-    height: 27px;
-    left: 1028px;
-    top: 2985px;
-    // background: #F9855B;
-}
-
-.footer-twitter-icon {
-    position: absolute;
-    width: 27px;
-    height: 22.31px;
-    left: 1069px;
-    top: 2987px;
-    background: #FFFFFF;
-}
-
-.footer-linkedin-icon {
-    position: absolute;
-    width: 16.16px;
-    height: 16.28px;
-    left: 1118.54px;
-    top: 2994.29px;
-    background: #DADADA;
-}
-
-.footer-angellist-icon {
-    position: absolute;
-    left: 80.35%;
-    right: 18.82%;
-    top: 94.59%;
-    bottom: 4.9%;
-    background: #FFFFFF;
-}
-
-.footer-medium-icon {
-    position: absolute;
-    left: 83.02%;
-    right: 15.68%;
-    top: 94.6%;
-    bottom: 4.93%;
-    background: #FFFFFF;
-}
+        .main-body {
+            position: relative;
+            width: 1440px;
+            height: 3161px;
+            background: #FFFFFF;
+            top: -260px;
+        }
+        
+        .background-header {
+            position: absolute;
+            width: 1880px;
+            height: 1056px;
+            left: 283px;
+            top: -170px;
+        }
+        
+        .page-header {
+            position: absolute;
+            width: 1139px;
+            height: 686px;
+            left: 301px;
+            top: -1px;
+            background: linear-gradient(257.1deg, #AE5BD6 27.51%, #4052F0 113.53%), url(asset_path('shutterstock.png'));
+            background-blend-mode: screen;
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+        }
+        
+        .name-section {
+            position: absolute;
+            width: 721px;
+            height: 100px;
+            left: 513px;
+            top: 160px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 88px;
+            line-height: 105.3%;
+            color: #FFFFFF;
+        }
+        
+        .rectangle-icons {
+            position: absolute;
+            width: 833px;
+            height: 51px;
+            left: 517px;
+            top: 417px;
+            background: #FFFFFF;
+            border-radius: 60px;
+        }
+        
+        .occupation {
+            position: absolute;
+            width: 531px;
+            height: 29px;
+            left: 515px;
+            top: 251px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 165.3%;
+            color: #FFFFFF;
+        }
+        
+        .description {
+            position: absolute;
+            width: 406px;
+            height: 136px;
+            left: 517px;
+            top: 305px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 22px;
+            color: #FFFFFF;
+        }
+        
+        .works-social-media {
+            position: absolute;
+            width: 254px;
+            height: 34px;
+            left: 545px;
+            top: 434px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #4F5461;
+        }
+        
+        .github-icon {
+            position: absolute;
+            width: 27.46px;
+            height: 27px;
+            left: 1109px;
+            top: 439px;
+        }
+        
+        .twitter-icon {
+            position: absolute;
+            width: 27px;
+            height: 22.31px;
+            left: 1149px;
+            top: 438px;
+        }
+        
+        .linkedin-icon {
+            position: absolute;
+            width: 16.16px;
+            height: 16.28px;
+            left: 1189px;
+            top: 438.29px;
+        }
+        
+        .angellist-icon {
+            position: absolute;
+            width: 28px;
+            height: 28px;
+            left: 1229px;
+            top: 438px;
+        }
+        
+        .medium-icon {
+            position: absolute;
+            width: 16.16px;
+            height: 16.28px;
+            left: 1269px;
+            top: 438.29px;
+        }
+        
+        .blogger-icon {
+            position: absolute;
+            width: 16.16px;
+            height: 16.28px;
+            left: 1309.54px;
+            top: 438.29px;
+        }
+        
+        .portfolio-title {
+            position: absolute;
+            width: 531px;
+            height: 29px;
+            left: 515px;
+            top: 710px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 105.3%;
+            color: #4F5461;
+        }
+        
+        .project-1 a {
+            position: absolute;
+            width: 406px;
+            height: 280px;
+            left: 517px;
+            top: 788px;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(screenshot-blogger.png)22% 16% no-repeat;
+            ;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            box-sizing: border-box;
+            border-radius: 10px;
+        }
+        
+        .project-2 a {
+            position: absolute;
+            width: 406px;
+            height: 280px;
+            left: 944px;
+            top: 788px;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(thoughtstar.png)99% 14% no-repeat;
+            border-radius: 10px;
+        }
+        
+        .project-3 a {
+            position: absolute;
+            width: 406px;
+            height: 280px;
+            left: 517px;
+            top: 1085px;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(screenshot-events.png) 52.5% 10% no-repeat;
+            border-radius: 10px;
+        }
+        
+        .project-4 a {
+            position: absolute;
+            width: 406px;
+            height: 280px;
+            left: 944px;
+            top: 1085px;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(screenshot-members-only.png) 49.5% 27% no-repeat;
+            border-radius: 10px;
+        }
+        
+        .project-5 a {
+            position: absolute;
+            width: 406px;
+            height: 280px;
+            left: 517px;
+            top: 1382px;
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(screenshot-twittter.png) 15% 9% no-repeat;
+            border-radius: 10px;
+        }
+        
+        .project-6 a {
+            position: absolute;
+            width: 406px;
+            height: 280px;
+            left: 944px;
+            top: 1382px;
+            background: url(spaza-screenshot.png) 15% 12% no-repeat;
+            border-radius: 10px;
+        }
+        
+        .about-me {
+            position: absolute;
+            width: 122px;
+            height: 29px;
+            left: 517px;
+            top: 1762px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 105.3%;
+            color: #4F5461;
+        }
+        
+        .details {
+            position: absolute;
+            width: 405px;
+            height: 111px;
+            left: 517px;
+            top: 1814px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 22px;
+            color: #737986;
+        }
+        
+        .resume {
+            position: absolute;
+            width: 193px;
+            height: 59px;
+            left: 517px;
+            top: 1925px;
+            background: #4456FB;
+            border-radius: 60px;
+        }
+        
+        .get-my-resume a {
+            position: absolute;
+            width: 156.12px;
+            height: 19px;
+            left: 537.44px;
+            top: 1947px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 105.3%;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        
+        .languages {
+            position: absolute;
+            width: 266px;
+            height: 341px;
+            left: 517px;
+            top: 2034px;
+            background: #F5F8FD;
+            border-radius: 10px;
+        }
+        
+        .languages-title {
+            position: absolute;
+            width: 109px;
+            height: 23px;
+            left: 545px;
+            top: 2065px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 105.3%;
+            color: #4F5461;
+        }
+        
+        .languages-list {
+            position: absolute;
+            width: 211px;
+            height: 194px;
+            left: 545px;
+            top: 2106px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 242.5%;
+            color: #737986;
+        }
+        
+        .languages-list ul,
+        .frameworks-list ul,
+        .skills-list ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .frameworks {
+            position: absolute;
+            width: 267px;
+            height: 341px;
+            left: 800px;
+            top: 2034px;
+            background: #F5F8FD;
+            border-radius: 10px;
+        }
+        
+        .frameworks-title {
+            position: absolute;
+            width: 122px;
+            height: 23px;
+            left: 826px;
+            top: 2065px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 105.3%;
+            color: #4F5461;
+        }
+        
+        .frameworks-list {
+            position: absolute;
+            width: 217px;
+            height: 232px;
+            left: 826px;
+            top: 2106px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 242.5%;
+            color: #737986;
+        }
+        
+        .skills {
+            position: absolute;
+            width: 266px;
+            height: 341px;
+            left: 1084px;
+            top: 2034px;
+            background: #F5F8FD;
+            border-radius: 10px;
+        }
+        
+        .skills-title {
+            position: absolute;
+            width: 55px;
+            height: 23px;
+            left: 1113px;
+            top: 2065px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 105.3%;
+            color: #4F5461;
+        }
+        
+        .skills-list {
+            position: absolute;
+            width: 216px;
+            height: 232px;
+            left: 1113px;
+            top: 2106px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 242.5%;
+            color: #737986;
+        }
+        
+        .interested-title {
+            position: absolute;
+            width: 345px;
+            height: 29px;
+            left: 517px;
+            top: 2475px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 105.3%;
+            color: #4F5461;
+        }
+        
+        .interested-content {
+            position: absolute;
+            width: 590px;
+            height: 84px;
+            left: 517px;
+            top: 2532px;
+            font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #737986;
+        }
+        
+        .footer-shape {
+            position: absolute;
+            width: 1139px;
+            height: 556px;
+            left: 301px;
+            // top: 3167px;
+            top: 2600px;
+            background: linear-gradient(234.04deg, #7F38DA 0%, #4052F0 71.02%);
+            transform: matrix(1, 0, 0, -1, 0, 0);
+        }
+        
+        .message {
+            position: absolute;
+            width: 672px;
+            height: 185px;
+            left: 517px;
+            top: 2691px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 0, 0, 0.07);
+            box-sizing: border-box;
+            box-shadow: 0px 7px 15px rgba(95, 104, 186, 0.13);
+            border-radius: 14px;
+        }
+        
+        .message-placeholder {
+            position: absolute;
+            width: 135px;
+            height: 30px;
+            left: 537px;
+            top: 2707px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+            color: #91959E;
+        }
+        
+        .name-email {
+            position: absolute;
+            width: 332px;
+            height: 59px;
+            left: 517px;
+            top: 2611px;
+            background: #FFFFFF;
+            border: 1px solid #ACCDFF;
+            box-sizing: border-box;
+            box-shadow: 0px 7px 15px rgba(95, 104, 186, 0.13);
+            border-radius: 14px;
+        }
+        
+        .your-name {
+            position: absolute;
+            width: 135px;
+            height: 30px;
+            left: 539px;
+            top: 2629px;
+            font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #737986;
+        }
+        
+        .email {
+            position: absolute;
+            width: 323px;
+            height: 59px;
+            left: 866px;
+            top: 2611px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 0, 0, 0.07);
+            box-sizing: border-box;
+            box-shadow: 0px 7px 15px rgba(95, 104, 186, 0.13);
+            border-radius: 14px;
+        }
+        
+        .your-email {
+            position: absolute;
+            width: 135px;
+            height: 30px;
+            left: 886px;
+            top: 2625px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            display: flex;
+            align-items: center;
+            color: #91959E;
+        }
+        
+        .get-in-touch {
+            position: absolute;
+            width: 242px;
+            height: 59px;
+            left: 517px;
+            top: 2917px;
+            background: #FA4969;
+            border-radius: 60px;
+        }
+        
+        .get-in-touch-message a {
+            position: absolute;
+            width: 165.58px;
+            height: 30px;
+            left: 558.85px;
+            top: 2940px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 105.3%;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        
+        .get-my-resume a:hover {
+            text-decoration: none;
+        }
+        
+        .get-in-touch-message a:hover {
+            text-decoration: none;
+        }
+        
+        .my-email {
+            position: absolute;
+            width: 177px;
+            height: 34px;
+            left: 1191px;
+            top: 2940px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #C5CBFE;
+        }
+        
+        .footer-github-icon {
+            position: absolute;
+            width: 27.46px;
+            height: 27px;
+            left: 1028px;
+            top: 2985px;
+            // background: #F9855B;
+        }
+        
+        .footer-twitter-icon {
+            position: absolute;
+            width: 27px;
+            height: 22.31px;
+            left: 1069px;
+            top: 2987px;
+            background: #FFFFFF;
+        }
+        
+        .footer-linkedin-icon {
+            position: absolute;
+            width: 16.16px;
+            height: 16.28px;
+            left: 1118.54px;
+            top: 2994.29px;
+            background: #DADADA;
+        }
+        
+        .footer-angellist-icon {
+            position: absolute;
+            left: 80.35%;
+            right: 18.82%;
+            top: 94.59%;
+            bottom: 4.9%;
+            background: #FFFFFF;
+        }
+        
+        .footer-medium-icon {
+            position: absolute;
+            left: 83.02%;
+            right: 15.68%;
+            top: 94.6%;
+            bottom: 4.93%;
+            background: #FFFFFF;
+        }

@@ -38,7 +38,7 @@ body {
     height: 29px;
     left: 114px;
     top: 75px;
-    font-family: Poppins, Consolas, monaco, "Ubuntu Mono", courier, monospace;
+    font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
     font-style: normal;
     font-weight: 800;
     font-size: 28px;
@@ -52,13 +52,13 @@ body {
     height: 276px;
     left: 90px;
     top: 215px;
-    font-family: Roboto, Consolas, monaco, "Ubuntu Mono", courier, monospace;
+    font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 338.5%;
-    display: flex;
-    flex-direction: column;
+    // display: flex;
+    // flex-direction: column;
     list-style: none;
     color: #4456FB;
 }
