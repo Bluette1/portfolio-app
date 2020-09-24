@@ -160,7 +160,7 @@
   height: 280px;
   left: 517px;
   top: 788px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(screenshot-blogger.png) 22% 16% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-blogger.png')) 22% 16% no-repeat;
   border: 1px solid rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
   border-radius: 10px;
@@ -172,7 +172,7 @@
   height: 280px;
   left: 944px;
   top: 788px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(thoughtstar.png) 99% 14% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('thoughtstar.png')) 99% 14% no-repeat;
   border-radius: 10px;
 }
 
@@ -182,7 +182,7 @@
   height: 280px;
   left: 517px;
   top: 1085px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(screenshot-events.png) 52.5% 10% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-events.png')) 52.5% 10% no-repeat;
   border-radius: 10px;
 }
 
@@ -192,7 +192,7 @@
   height: 280px;
   left: 944px;
   top: 1085px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(screenshot-members-only.png) 49.5% 27% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-members-only.png')) 49.5% 27% no-repeat;
   border-radius: 10px;
 }
 
@@ -202,7 +202,7 @@
   height: 280px;
   left: 517px;
   top: 1382px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(screenshot-twittter.png) 15% 9% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-twittter.png')) 15% 9% no-repeat;
   border-radius: 10px;
 }
 
@@ -212,7 +212,7 @@
   height: 280px;
   left: 944px;
   top: 1382px;
-  background: url(spaza-screenshot.png) 15% 12% no-repeat;
+  background: url(asset_path('spaza-screenshot.png')) 15% 12% no-repeat;
   border-radius: 10px;
 }
 
