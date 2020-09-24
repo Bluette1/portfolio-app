@@ -1,245 +1,257 @@
-    .body-details {
-        position: absolute;
-        width: 1440px;
-        height: 3340px;
-        left: 0px;
-        top: -1px;
-        background: #FFFFFF;
-        opacity: 0.7;
-    }
-    
-    main-body-details {
-        position: absolute;
-        width: 1046px;
-        height: 880px;
-        left: 197px;
-        top: 180px;
-        background: #FFFFFF;
-        box-shadow: 0px 34px 104px rgba(0, 0, 0, 0.25);
-        border-radius: 30px;
-    }
-    
-    .page-header-details {
-        position: absolute;
-        width: 1046px;
-        height: 537px;
-        left: 197px;
-        top: 180px;
-        background: linear-gradient(257.1deg, #AE5BD6 27.51%, #4052F0 113.53%), url(asset_path("unsplash.jpg"));
-    }
-    
-    .page-header-details .words {
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-        font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 62px;
-        line-height: 105.3%;
-        color: #FFFFFF;
-        text-align: center;
-    }
-    
-    .page-header-details .words-description {
-        display: flex;
-        justify-content: center;
-        margin-top: 85px;
-        font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 22px;
-        line-height: 25.3%;
-        color: #FFFFFF;
-        text-align: center;
-    }
-    
-    .see-live {
-        position: absolute;
-        width: 225px;
-        height: 59px;
-        left: 734px;
-        top: 689px;
-        background: #FA4969;
-        border-radius: 60px;
-    }
-    
-    .see-live-content {
-        position: absolute;
-        width: 182px;
-        height: 30px;
-        left: 813px;
-        top: 705px;
-        font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 105.3%;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        color: #FFFFFF;
-    }
-    
-    .see-source {
-        position: absolute;
-        width: 225px;
-        height: 59px;
-        left: 986px;
-        top: 687px;
-        background: #FA4969;
-        border-radius: 60px;
-    }
-    
-    .see-source-content {
-        position: absolute;
-        width: 182px;
-        height: 30px;
-        left: 1061px;
-        top: 705px;
-        font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 105.3%;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        color: #FFFFFF;
-    }
-    
-    .brand-section {
-        position: absolute;
-        width: 128px;
-        height: 29px;
-        left: 301px;
-        top: 780px;
-        font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        line-height: 105.3%;
-        color: #4F5461;
-    }
-    
-    .html-css-btn {
-        position: absolute;
-        width: 91px;
-        height: 30px;
-        left: 302px;
-        top: 851px;
-        background: #4F5461;
-        border-radius: 40px;
-    }
-    
-    .html-css {
-        position: absolute;
-        width: 81px;
-        height: 21px;
-        left: 307px;
-        top: 857px;
-        font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 21px;
-        /* identical to box height */
-        text-align: center;
-        color: #E6E9F0;
-    }
-    
-    .ror-btn {
-        position: absolute;
-        width: 111px;
-        height: 30px;
-        left: 400px;
-        top: 851px;
-        background: #4F5461;
-        border-radius: 40px;
-    }
-    
-    .ror {
-        position: absolute;
-        width: 92px;
-        height: 21px;
-        left: 410px;
-        top: 856px;
-        font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 21px;
-        /* identical to box height */
-        text-align: center;
-        color: #E6E9F0;
-    }
-    
-    .javascript-btn {
-        position: absolute;
-        width: 91px;
-        height: 30px;
-        left: 518px;
-        top: 851px;
-        background: #4F5461;
-        border-radius: 40px;
-    }
-    
-    .javascript {
-        position: absolute;
-        width: 91px;
-        height: 21px;
-        left: 518px;
-        top: 856px;
-        font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-        ;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 21px;
-        /* identical to box height */
-        text-align: center;
-        color: #E6E9F0;
-    }
-    
-    .details-details {
-        position: absolute;
-        width: 620px;
-        height: 141px;
-        left: 303px;
-        top: 888px;
-        font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 120%;
-        /* or 17px */
-        color: #737986;
-    }
-    
-    .talk-btn {
-        position: absolute;
-        width: 225px;
-        height: 59px;
-        left: 634px;
-        top: 1028px;
-        background: #FA4969;
-        border-radius: 60px;
-    }
-    
-    .talk {
-        position: absolute;
-        width: 182px;
-        height: 30px;
-        left: 703px;
-        top: 1044px;
-        font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 105.3%;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        color: #FFFFFF;
-    }
+        .body-details {
+            position: absolute;
+            width: 1440px;
+            height: 3340px;
+            left: 0px;
+            top: -1px;
+            background: #FFFFFF;
+            opacity: 0.7;
+        }
+        
+        main-body-details {
+            position: absolute;
+            width: 1046px;
+            height: 880px;
+            left: 197px;
+            top: 180px;
+            background: #FFFFFF;
+            box-shadow: 0px 34px 104px rgba(0, 0, 0, 0.25);
+            border-radius: 30px;
+        }
+        
+        .page-header-details {
+            position: absolute;
+            width: 1046px;
+            height: 537px;
+            left: 197px;
+            top: 180px;
+            background: linear-gradient(257.1deg, #AE5BD6 27.51%, #4052F0 113.53%), url(asset_path("unsplash.jpg"));
+        }
+        
+        .page-header-details .words {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 62px;
+            line-height: 105.3%;
+            color: #FFFFFF;
+            text-align: center;
+        }
+        
+        .page-header-details .words-description {
+            display: flex;
+            justify-content: center;
+            margin-top: 85px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 25.3%;
+            color: #FFFFFF;
+            text-align: center;
+        }
+        
+        .see-live {
+            position: absolute;
+            width: 225px;
+            height: 59px;
+            left: 734px;
+            top: 689px;
+            background: #FA4969;
+            border-radius: 60px;
+        }
+        
+        .see-live-content a {
+            position: absolute;
+            width: 182px;
+            height: 30px;
+            left: 813px;
+            top: 705px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 105.3%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        
+        .see-live-content a:hover {
+            text-decoration: none;
+        }
+        
+        .see-source {
+            position: absolute;
+            width: 225px;
+            height: 59px;
+            left: 986px;
+            top: 687px;
+            background: #FA4969;
+            border-radius: 60px;
+        }
+        
+        .see-source-content a {
+            position: absolute;
+            width: 182px;
+            height: 30px;
+            left: 1061px;
+            top: 705px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 105.3%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        
+        .see-source-content a:hover {
+            text-decoration: none;
+        }
+        
+        .brand-section {
+            position: absolute;
+            width: 128px;
+            height: 29px;
+            left: 301px;
+            top: 780px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 105.3%;
+            color: #4F5461;
+        }
+        
+        .html-css-btn {
+            position: absolute;
+            width: 91px;
+            height: 30px;
+            left: 302px;
+            top: 851px;
+            background: #4F5461;
+            border-radius: 40px;
+        }
+        
+        .html-css {
+            position: absolute;
+            width: 81px;
+            height: 21px;
+            left: 307px;
+            top: 857px;
+            font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            /* identical to box height */
+            text-align: center;
+            color: #E6E9F0;
+        }
+        
+        .ror-btn {
+            position: absolute;
+            width: 111px;
+            height: 30px;
+            left: 400px;
+            top: 851px;
+            background: #4F5461;
+            border-radius: 40px;
+        }
+        
+        .ror {
+            position: absolute;
+            width: 92px;
+            height: 21px;
+            left: 410px;
+            top: 856px;
+            font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            /* identical to box height */
+            text-align: center;
+            color: #E6E9F0;
+        }
+        
+        .javascript-btn {
+            position: absolute;
+            width: 91px;
+            height: 30px;
+            left: 518px;
+            top: 851px;
+            background: #4F5461;
+            border-radius: 40px;
+        }
+        
+        .javascript {
+            position: absolute;
+            width: 91px;
+            height: 21px;
+            left: 518px;
+            top: 856px;
+            font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            ;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 21px;
+            /* identical to box height */
+            text-align: center;
+            color: #E6E9F0;
+        }
+        
+        .details-details {
+            position: absolute;
+            width: 620px;
+            height: 141px;
+            left: 303px;
+            top: 888px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 120%;
+            /* or 17px */
+            color: #737986;
+        }
+        
+        .talk-btn {
+            position: absolute;
+            width: 225px;
+            height: 59px;
+            left: 634px;
+            top: 1028px;
+            background: #FA4969;
+            border-radius: 60px;
+        }
+        
+        .talk a {
+            position: absolute;
+            width: 182px;
+            height: 30px;
+            left: 703px;
+            top: 1044px;
+            font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 105.3%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        
+        .talk a:hover {
+            text-decoration: none;
+        }
