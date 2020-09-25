@@ -20,8 +20,7 @@
   height: 686px;
   left: 301px;
   top: -1px;
-  // background: linear-gradient(257.1deg, #ae5bd6 27.51%, #4052f0 113.53%), url(asset_path('shutterstock.png'));
-  background: linear-gradient(257.1deg, #2f19a7 27.51%, #4052f0 113.53%), url(asset_path('shutterstock.png'));
+  background: linear-gradient(234.04deg, #2f19a7 0%, #4052f0 71.02%), url(asset_path('shutterstock.png'));
   background-blend-mode: screen;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
@@ -250,7 +249,6 @@
   height: 59px;
   left: 517px;
   top: 1955px;
-  // background: #4456fb;
   background: #fa4969;
   border-radius: 60px;
 }
@@ -425,7 +423,6 @@
   height: 556px;
   left: 301px;
   top: 2600px;
-  // background: linear-gradient(234.04deg, #7f38da 0%, #4052f0 71.02%);
   background: linear-gradient(234.04deg, #2f19a7 0%, #4052f0 71.02%);
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
@@ -532,9 +529,7 @@
 
 .footer-angellist-icon {
   position: absolute;
-  // left: 82.55%;
   left: 1262.54px;
-  // right: 18.82%;
   top: 2987px;
   bottom: 4.9%;
   color: #fff;
@@ -542,11 +537,7 @@
 
 .footer-medium-icon {
   position: absolute;
-  // left: 83.02%;
-  // left: 86.02%;
-
   left: 1316.54px;
-  // right: 15.68%;
   top: 2987px;
   bottom: 4.93%;
   color: #fff;
@@ -556,7 +547,6 @@
   position: absolute;
   width: 16.16px;
   height: 16.28px;
-  // left: 1309.54px;
   left: 1362.54px;
   top: 2987px;
   color: #fff;
