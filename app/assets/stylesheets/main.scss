@@ -249,7 +249,7 @@
   width: 193px;
   height: 59px;
   left: 517px;
-  top: 1925px;
+  top: 1955px;
   // background: #4456fb;
   background: #fa4969;
   border-radius: 60px;
@@ -260,7 +260,7 @@
   width: 156.12px;
   height: 19px;
   left: 537.44px;
-  top: 1947px;
+  top: 1977px;
   font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: bold;
@@ -443,22 +443,6 @@
   border-radius: 14px;
 }
 
-.message-placeholder {
-  position: absolute;
-  width: 135px;
-  height: 30px;
-  left: 537px;
-  top: 2707px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  display: flex;
-  align-items: center;
-  color: #91959e;
-}
-
 .name-email {
   position: absolute;
   width: 332px;
@@ -470,20 +454,6 @@
   box-sizing: border-box;
   box-shadow: 0 7px 15px rgba(95, 104, 186, 0.13);
   border-radius: 14px;
-}
-
-.your-name {
-  position: absolute;
-  width: 135px;
-  height: 30px;
-  left: 539px;
-  top: 2629px;
-  font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #737986;
 }
 
 .email {
@@ -499,22 +469,6 @@
   border-radius: 14px;
 }
 
-.your-email {
-  position: absolute;
-  width: 135px;
-  height: 30px;
-  left: 886px;
-  top: 2625px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  display: flex;
-  align-items: center;
-  color: #91959e;
-}
-
 .get-in-touch {
   position: absolute;
   width: 242px;
@@ -523,21 +477,8 @@
   top: 2917px;
   background: #fa4969;
   border-radius: 60px;
-}
-
-.get-in-touch-message a {
-  position: absolute;
-  width: 165.58px;
-  height: 30px;
-  left: 558.85px;
-  top: 2940px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 105.3%;
-  text-align: center;
   color: #fff;
+  border-color: #fa4969;
 }
 
 .get-my-resume a:hover {
@@ -604,4 +545,15 @@
   top: 94.6%;
   bottom: 4.93%;
   background: #fff;
+}
+
+form input[type="text"] {
+  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #737986;
 }
