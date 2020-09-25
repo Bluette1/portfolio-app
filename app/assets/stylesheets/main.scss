@@ -532,7 +532,8 @@
 
 .footer-angellist-icon {
   position: absolute;
-  left: 82.55%;
+  // left: 82.55%;
+  left: 1262.54px;
   // right: 18.82%;
   top: 2987px;
   bottom: 4.9%;
@@ -542,7 +543,9 @@
 .footer-medium-icon {
   position: absolute;
   // left: 83.02%;
-  left: 86.02%;
+  // left: 86.02%;
+
+  left: 1316.54px;
   // right: 15.68%;
   top: 2987px;
   bottom: 4.93%;
@@ -568,6 +571,7 @@ form input[type="text"] {
   display: flex;
   align-items: center;
   color: #737986;
+  padding-left: 10px;
 }
 
 form input[type="submit"] {
