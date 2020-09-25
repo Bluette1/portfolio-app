@@ -1,0 +1,80 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.ellipse {
+  border-radius: 50%;
+  position: absolute;
+  width: 86px;
+  height: 86px;
+  left: 90px;
+  top: 47px;
+  background: #4456fb;
+}
+
+.cp {
+  position: absolute;
+  width: 43px;
+  height: 29px;
+  left: 114px;
+  top: 75px;
+  font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 105.3%;
+  color: #fff;
+}
+
+.intro {
+  position: absolute;
+  width: 193px;
+  height: 276px;
+  left: 90px;
+  top: 215px;
+  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 338.5%;
+  list-style: none;
+  color: #4456fb;
+  padding-left: 0;
+}
+
+.intro a:hover,
+.portfolio a:hover,
+.about a:hover,
+.contact a:hover {
+  text-decoration: none;
+}
+
+*:focus {
+  outline: none;
+}

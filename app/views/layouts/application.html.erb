@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PortfolioApp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css', integrity: "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh", crossorigin: "anonymous" %>
+    <%= javascript_include_tag "https://code.jquery.com/jquery-3.4.1.slim.min.js", integrity:"sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n", crossorigin: "anonymous" %>
+    <%= javascript_include_tag "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js", integrity: "sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo", crossorigin: "anonymous" %>
+    <%= javascript_include_tag "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js", integrity: "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6", crossorigin: "anonymous"%>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script>
+      async src = "https://www.googletagmanager.com/gtag/js?id=UA-179041920-1"
+      async src = "https://www.googletagmanager.com/gtag/js?id=UA-179041920-2"
+    </script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      
+      gtag('config', 'UA-179041920-1');
+      gtag('config', 'UA-179041920-2');
+    </script>
+    <%= stylesheet_link_tag 'https://use.fontawesome.com/releases/v5.8.1/css/all.css' %>
+    <%= stylesheet_link_tag "https://fonts.googleapis.com/css?family=Roboto+Condensed" %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body class="row">
+    <div class="row ellipse d-none d-md-block">
+    </div>
+    <div class="row cp d-none d-md-flex flex-md-column">CP</div>
+    <ul class="row intro d-none d-md-flex flex-md-column">
+      <li><a href="/details">Intro</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="/details#intro">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <%= yield %>
+  </body>
+</html>
