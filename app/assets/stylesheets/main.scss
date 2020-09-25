@@ -507,44 +507,56 @@
   position: absolute;
   width: 27.46px;
   height: 27px;
-  left: 1028px;
-  top: 2985px;
+  left: 1098px;
+  top: 2987px;
+  color: #fff;
 }
 
 .footer-twitter-icon {
   position: absolute;
   width: 27px;
   height: 22.31px;
-  left: 1069px;
+  left: 1154px;
   top: 2987px;
-  background: #fff;
+  color: #fff;
 }
 
 .footer-linkedin-icon {
   position: absolute;
   width: 16.16px;
   height: 16.28px;
-  left: 1118.54px;
-  top: 2994.29px;
-  background: #dadada;
+  left: 1208.54px;
+  top: 2987px;
+  color: #fff;
 }
 
 .footer-angellist-icon {
   position: absolute;
-  left: 80.35%;
-  right: 18.82%;
-  top: 94.59%;
+  left: 82.55%;
+  // right: 18.82%;
+  top: 2987px;
   bottom: 4.9%;
-  background: #fff;
+  color: #fff;
 }
 
 .footer-medium-icon {
   position: absolute;
-  left: 83.02%;
-  right: 15.68%;
-  top: 94.6%;
+  // left: 83.02%;
+  left: 86.02%;
+  // right: 15.68%;
+  top: 2987px;
   bottom: 4.93%;
-  background: #fff;
+  color: #fff;
+}
+
+.footer-blogger-icon {
+  position: absolute;
+  width: 16.16px;
+  height: 16.28px;
+  // left: 1309.54px;
+  left: 1362.54px;
+  top: 2987px;
+  color: #fff;
 }
 
 form input[type="text"] {
@@ -556,4 +568,8 @@ form input[type="text"] {
   display: flex;
   align-items: center;
   color: #737986;
+}
+
+form input[type="submit"] {
+  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
 }
