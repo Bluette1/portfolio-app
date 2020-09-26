@@ -27,16 +27,7 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-  <body class="row">
-    <div class="row ellipse d-md-block">
-    </div>
-    <div class="row cp d-flex flex-column">CP</div>
-    <ul class="row intro d-flex flex-column">
-      <li><a href="/details">Intro</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="/details#intro">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+  <body class="row container-fluid">
     <%= yield %>
   </body>
 </html>
