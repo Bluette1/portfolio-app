@@ -215,3 +215,9 @@
     text-decoration: none;
     color: #fff;
 }
+
+@media (max-width: 767px) {
+    .page-header-details {
+        margin-top: -250px;
+    }
+}
