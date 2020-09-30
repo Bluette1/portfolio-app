@@ -1,5 +1,4 @@
 .body-details {
-    width: 1440px;
     margin-left: 0;
     margin-top: -1px;
     background: #fff;
@@ -14,7 +13,6 @@
 
 .page-header-details {
     height: 547px;
-    margin-top: 188px;
     background: linear-gradient(257.1deg, #2f19a7 27.51%, #4052f0 113.53%), url(asset_path("unsplash.jpg"));
 }
 
@@ -45,13 +43,12 @@
 }
 
 .page-header-details .occupation-details {
-    display: flex;
     margin-top: 95px;
     font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
-    line-height: 25.3%;
+    line-height: 161%;
     color: #fff;
     text-align: center;
 }
@@ -221,9 +218,6 @@
 }
 
 @media (max-width: 767px) {
-    .page-header-details {
-        margin-top: -250px;
-    }
     .page-header-details .words {
         font-size: 25px;
         width: 300px;
@@ -236,7 +230,7 @@
     }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 768px) {
     .languages-section {
         display: flex;
         flex-direction: column;
