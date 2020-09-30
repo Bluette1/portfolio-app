@@ -17,55 +17,54 @@
 *,
 ::after,
 ::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    position: relative;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .ellipse {
-    border-radius: 50%;
-    width: 86px;
-    height: 86px;
-    background: #4456fb;
+  border-radius: 50%;
+  width: 86px;
+  height: 86px;
+  background: #4456fb;
 }
 
 .cp {
-    width: 43px;
-    height: 29px;
-    font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 28px;
-    line-height: 105.3%;
-    color: #fff;
-    text-align: center;
+  width: 43px;
+  height: 29px;
+  font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 105.3%;
+  color: #fff;
+  text-align: center;
 }
 
 .intro {
-    // height: 276px;
-    font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 338.5%;
-    list-style: none;
-    color: #4456fb;
-    padding-left: 0;
+  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 338.5%;
+  list-style: none;
+  color: #4456fb;
+  padding-left: 0;
 }
 
 .intro a:hover,
 .portfolio a:hover,
 .about a:hover,
 .contact a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 *:focus {
-    outline: none;
+  outline: none;
 }
