@@ -4,10 +4,9 @@ RSpec.describe 'Features', type: :feature do
   before :each do
     visit root_path
   end
-  scenario 'user can see the portfolio' do
-    expect(page).to have_content('Portfolio')
+  scenario 'user can see the portfolio features' do
+    expect(page).to have_content('Projects')
     expect(page).to have_content('About')
-    expect(page).to have_content('Intro')
     expect(page).to have_content('Contact')
   end
 
