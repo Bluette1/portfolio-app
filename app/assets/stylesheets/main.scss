@@ -1,367 +1,370 @@
-.page-header {
-  background: linear-gradient(234.04deg, #2f19a7 0%, #4052f0 71.02%), url(asset_path('shutterstock.png'));
-  background-blend-mode: screen;
-}
-
-.name-section {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 88px;
-  line-height: 105.3%;
-  color: #fff;
-}
-
-.rectangle-icons {
-  background: #fff;
-  border-radius: 60px;
-}
-
-.occupation {
-  height: 29px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 165.3%;
-  color: #fff;
-}
-
-.description {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
-  color: #fff;
-}
-
-.works-social-media {
-  width: 254px;
-  height: 34px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  color: #4f5461;
-}
-
-.github-icon {
-  width: 27.46px;
-  height: 27px;
-}
-
-.twitter-icon {
-  width: 27px;
-  height: 22.31px;
-}
-
-.linkedin-icon {
-  width: 16.16px;
-  height: 16.28px;
-}
-
-.angellist-icon {
-  width: 28px;
-  height: 28px;
-}
-
-.medium-icon {
-  width: 16.16px;
-  height: 16.28px;
-}
-
-.blogger-icon {
-  width: 16.16px;
-  height: 16.28px;
-}
-
-.portfolio-title {
-  width: 531px;
-  height: 29px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 105.3%;
-  color: #4f5461;
-}
-
-.project-1 {
-  width: 300px;
-  height: 280px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('thoughtstar.png')) 0% 16% no-repeat;
-  background-size: cover;
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  box-sizing: border-box;
-  border-radius: 10px;
-}
-
-.project-2 {
-  width: 300px;
-  height: 280px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-events.png')) 50% 17% no-repeat;
-  border-radius: 10px;
-}
-
-.project-3 {
-  height: 280px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-twittter.png')) 15% 9% no-repeat;
-  border-radius: 10px;
-}
-
-.project-4 {
-  height: 280px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-directory.png')) 7.5% 32% no-repeat;
-  border-radius: 10px;
-}
-
-.about-me {
-  width: 122px;
-  height: 29px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 105.3%;
-  color: #4f5461;
-}
-
-.details {
-  width: 405px;
-  height: 111px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
-  color: #737986;
-}
-
-.get-my-resume {
-  padding: 30px;
-  background: #fa4969;
-  border-radius: 60px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 105.3%;
-  display: flex;
-  align-items: center;
-  color: #fff;
-}
-
-.get-my-resume:hover {
-  text-decoration: none;
-  color: #fff;
-}
-
-.languages-title {
-  width: 109px;
-  height: 23px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 105.3%;
-  color: #4f5461;
-}
-
-.languages-list {
-  width: 211px;
-  height: 194px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 242.5%;
-  color: #737986;
-}
-
-.languages-list ul,
-.frameworks-list ul,
-.skills-list ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.languages,
-.frameworks,
-.skills {
-  margin: 5px;
-  margin-top: 80px;
-  background: #f5f8fd;
-  border-radius: 10px;
-}
-
-.frameworks-title {
-  width: 122px;
-  height: 23px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 105.3%;
-  color: #4f5461;
-}
-
-.frameworks-list {
-  width: 217px;
-  height: 232px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 242.5%;
-  color: #737986;
-}
-
-.skills-title {
-  width: 55px;
-  height: 23px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 105.3%;
-  color: #4f5461;
-}
-
-.skills-list {
-  width: 216px;
-  height: 232px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 242.5%;
-  color: #737986;
-}
-
-.interested-title {
-  height: 29px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 105.3%;
-  color: #4f5461;
-}
-
-.interested-content {
-  height: 84px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #737986;
-}
-
-.footer-shape {
-  background: linear-gradient(234.04deg, #2f19a7 0%, #4052f0 71.02%);
-}
-
-.message {
-  height: 185px;
-  background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.07);
-  box-sizing: border-box;
-  box-shadow: 0 7px 15px rgba(95, 104, 186, 0.13);
-  border-radius: 14px;
-}
-
-.name-email {
-  height: 59px;
-  background: #fff;
-  border: 1px solid #accdff;
-  box-sizing: border-box;
-  box-shadow: 0 7px 15px rgba(95, 104, 186, 0.13);
-  border-radius: 14px;
-}
-
-.email {
-  height: 59px;
-  background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.07);
-  box-sizing: border-box;
-  box-shadow: 0 7px 15px rgba(95, 104, 186, 0.13);
-  border-radius: 14px;
-}
-
-.get-in-touch {
-  height: 59px;
-  background: #fa4969;
-  border-radius: 60px;
-  color: #fff;
-  border-color: transparent;
-}
-
-.get-my-resume a:hover {
-  text-decoration: none;
-}
-
-.get-in-touch-message a:hover {
-  text-decoration: none;
-}
-
-.my-email {
-  height: 34px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  color: #c5cbfe;
-}
-
-.footer-github-icon {
-  width: 27.46px;
-  height: 27px;
-  color: #fff;
-}
-
-.footer-twitter-icon {
-  width: 27px;
-  height: 22.31px;
-  color: #fff;
-}
-
-.footer-linkedin-icon {
-  width: 16.16px;
-  top: 2987px;
-  color: #fff;
-}
-
-.footer-angellist-icon {
-  color: #fff;
-}
-
-.footer-medium-icon {
-  color: #fff;
-}
-
-.footer-blogger-icon {
-  height: 16.28px;
-  color: #fff;
-}
-
-form input[type="text"] {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  display: flex;
-  align-items: center;
-  color: #737986;
-  padding-left: 10px;
-}
-
-@media (min-width: 768px) {
   .page-header {
-    height: 686px;
+    background: linear-gradient(234.04deg, #2f19a7 0%, #4052f0 71.02%), url(asset_path('shutterstock.png'));
+    background-blend-mode: screen;
   }
-}
-
-@media (max-width: 575.98px) {
-  .occupation {
-    font-size: 20px;
-  }
-
+  
   .name-section {
-    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 88px;
+    line-height: 105.3%;
+    color: #fff;
   }
-
+  
+  .rectangle-icons {
+    background: #fff;
+    border-radius: 60px;
+  }
+  
+  .occupation {
+    height: 29px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 165.3%;
+    color: #fff;
+  }
+  
   .description {
-    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
   }
-
+  
+  .works-social-media {
+    width: 254px;
+    height: 34px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #4f5461;
+  }
+  
+  .github-icon {
+    width: 27.46px;
+    height: 27px;
+  }
+  
+  .twitter-icon {
+    width: 27px;
+    height: 22.31px;
+  }
+  
+  .linkedin-icon {
+    width: 16.16px;
+    height: 16.28px;
+  }
+  
+  .angellist-icon {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .medium-icon {
+    width: 16.16px;
+    height: 16.28px;
+  }
+  
+  .blogger-icon {
+    width: 16.16px;
+    height: 16.28px;
+  }
+  
+  .portfolio-title {
+    width: 531px;
+    height: 29px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 105.3%;
+    color: #4f5461;
+  }
+  
+  .project-1 {
+    width: 300px;
+    height: 280px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('thoughtstar.png')) 0% 16% no-repeat;
+    background-size: cover;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  .project-2 {
+    width: 300px;
+    height: 280px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('todolist.png')) 31% 31% no-repeat;
+    border-radius: 10px;
+  }
+  
+  .project-3 {
+    height: 280px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('bedance.png')) 1% 12% no-repeat;
+    border-radius: 10px;
+  }
+  
+  .project-4 {
+    height: 280px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-directory.png')) 7.5% 32% no-repeat;
+    border-radius: 10px;
+  }
+  
+  .about-me {
+    width: 122px;
+    height: 29px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 105.3%;
+    color: #4f5461;
+  }
+  
+  .details {
+    width: 405px;
+    height: 111px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #737986;
+  }
+  
   .get-my-resume {
-    margin-top: 7.5rem !important;
+    padding: 30px;
+    background: #fa4969;
+    border-radius: 60px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 105.3%;
+    display: flex;
+    align-items: center;
+    color: #fff;
   }
-}
+  
+  .get-my-resume:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .languages-title {
+    width: 109px;
+    height: 23px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 105.3%;
+    color: #4f5461;
+  }
+  
+  .languages-list {
+    width: 211px;
+    height: 194px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 242.5%;
+    color: #737986;
+  }
+  
+  .languages-list ul,
+  .frameworks-list ul,
+  .skills-list ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .languages,
+  .frameworks,
+  .skills {
+    margin: 5px;
+    margin-top: 80px;
+    background: #f5f8fd;
+    border-radius: 10px;
+  }
+  
+  .frameworks-title {
+    width: 122px;
+    height: 23px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 105.3%;
+    color: #4f5461;
+  }
+  
+  .frameworks-list {
+    width: 217px;
+    height: 232px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 242.5%;
+    color: #737986;
+  }
+  
+  .skills-title {
+    width: 55px;
+    height: 23px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 105.3%;
+    color: #4f5461;
+  }
+  
+  .skills-list {
+    width: 216px;
+    height: 232px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 242.5%;
+    color: #737986;
+  }
+  
+  .interested-title {
+    height: 29px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 105.3%;
+    color: #4f5461;
+  }
+  
+  .interested-content {
+    height: 84px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #737986;
+  }
+  
+  .footer-shape {
+    background: linear-gradient(234.04deg, #2f19a7 0%, #4052f0 71.02%);
+  }
+  
+  .message {
+    height: 185px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    box-shadow: 0 7px 15px rgba(95, 104, 186, 0.13);
+    border-radius: 14px;
+  }
+  
+  .name-email {
+    height: 59px;
+    background: #fff;
+    border: 1px solid #accdff;
+    box-sizing: border-box;
+    box-shadow: 0 7px 15px rgba(95, 104, 186, 0.13);
+    border-radius: 14px;
+  }
+  
+  .email {
+    height: 59px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    box-sizing: border-box;
+    box-shadow: 0 7px 15px rgba(95, 104, 186, 0.13);
+    border-radius: 14px;
+  }
+  
+  .get-in-touch {
+    height: 59px;
+    background: #fa4969;
+    border-radius: 60px;
+    color: #fff;
+    border-color: transparent;
+  }
+  
+  .get-my-resume a:hover {
+    text-decoration: none;
+  }
+  
+  .get-in-touch-message a:hover {
+    text-decoration: none;
+  }
+  
+  .my-email {
+    height: 34px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #c5cbfe;
+  }
+  
+  .footer-github-icon {
+    width: 27.46px;
+    height: 27px;
+    color: #fff;
+  }
+  
+  .footer-twitter-icon {
+    width: 27px;
+    height: 22.31px;
+    color: #fff;
+  }
+  
+  .footer-linkedin-icon {
+    width: 16.16px;
+    top: 2987px;
+    color: #fff;
+  }
+  
+  .footer-angellist-icon {
+    color: #fff;
+  }
+  
+  .footer-medium-icon {
+    color: #fff;
+  }
+  
+  .footer-blogger-icon {
+    height: 16.28px;
+    color: #fff;
+  }
+  
+  form input[type="text"] {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #737986;
+    padding-left: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .page-header {
+      height: 686px;
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    .occupation {
+      font-size: 20px;
+    }
+    .name-section {
+      font-size: 35px;
+    }
+    .description {
+      font-size: 12px;
+    }
+    .get-my-resume {
+      margin-top: 7.5rem !important;
+    }
+  }
+  
+  @media (min-width: 320px) {
+    .blogger-icon {
+      display: none !important;
+    }
+  }
