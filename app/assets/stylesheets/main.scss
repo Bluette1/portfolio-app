@@ -83,8 +83,26 @@
   color: #4f5461;
 }
 
+.article-description {
+  grid-column: span 1;
+  grid-row: 5/6;
+}
+
+.article-description a {
+  text-decoration: none;
+  color: #fa4969;
+}
+
+.article-description-text {
+  line-height: 1.5rem;
+}
+
+
+/* # col-md-5 col-12  m-md-2 */
+
 .project-1 {
-  width: 300px;
+  grid-column: span 1;
+  grid-row: 1/5;
   height: 280px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('thoughtstar.png')) 0% 16% no-repeat;
   background-size: cover;
@@ -94,9 +112,10 @@
 }
 
 .project-2 {
-  width: 300px;
+  grid-column: span 1;
+  grid-row: 1/5;
   height: 280px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('todolist.png')) 31% 31% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('todolist.png')) 36% 31% no-repeat;
   border-radius: 10px;
 }
 
@@ -345,6 +364,12 @@ form input[type="text"] {
   padding-left: 10px;
 }
 
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4fr 1fr;
+}
+
 @media (min-width: 768px) {
   .page-header {
     height: 686px;
@@ -355,15 +380,12 @@ form input[type="text"] {
   .occupation {
     font-size: 20px;
   }
-
   .name-section {
     font-size: 35px;
   }
-
   .description {
     font-size: 12px;
   }
-
   .get-my-resume {
     margin-top: 7.5rem !important;
   }
