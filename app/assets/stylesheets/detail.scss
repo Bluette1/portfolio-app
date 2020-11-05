@@ -1,31 +1,18 @@
 .body-details {
-  position: absolute;
-  width: 1440px;
-  height: 3340px;
-  left: 0;
-  top: -1px;
+  margin-left: 0;
+  margin-top: -1px;
   background: #fff;
-  opacity: 0.7;
 }
 
 .main-body-details {
-  position: absolute;
-  width: 1046px;
-  height: 880px;
-  left: 197px;
-  top: 180px;
+  margin-top: 180px;
   background: #fff;
   box-shadow: 0 34px 104px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
 }
 
 .page-header-details {
-  position: absolute;
-  width: 1046px;
-  height: 537px;
-  left: 197px;
-  top: 180px;
-  // background: linear-gradient(257.1deg, #ae5bd6 27.51%, #4052f0 113.53%), url(asset_path("unsplash.jpg"));
+  height: 547px;
   background: linear-gradient(257.1deg, #2f19a7 27.51%, #4052f0 113.53%), url(asset_path("unsplash.jpg"));
 }
 
@@ -33,7 +20,6 @@
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: bold;
   font-size: 62px;
@@ -46,7 +32,6 @@
   display: flex;
   justify-content: center;
   margin-top: 85px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -55,23 +40,50 @@
   text-align: center;
 }
 
-.see-live {
-  position: absolute;
+.page-header-details .occupation-details {
+  margin-top: 95px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 161%;
+  color: #fff;
+  text-align: center;
+}
+
+.page-header-details .see-live {
+  display: flex;
+  justify-content: center;
   width: 225px;
   height: 59px;
-  left: 734px;
-  top: 689px;
+  margin-top: 321px;
   background: #fa4969;
   border-radius: 60px;
+  border-color: #fa4969;
 }
 
-.see-live-content a {
-  position: absolute;
+.page-header-details .see-live-content {
+  height: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 105.3%;
+  display: flex;
+  color: #fff;
+}
+
+.page-header-details .see-source-content {
+  height: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 105.3%;
+  display: flex;
+  color: #fff;
+}
+
+.talk {
   width: 182px;
   height: 30px;
-  left: 813px;
-  top: 705px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -79,68 +91,38 @@
   display: flex;
   align-items: center;
   text-align: center;
+  padding-left: 40px;
   color: #fff;
 }
 
-.see-source-content a {
-  position: absolute;
-  width: 182px;
-  height: 30px;
-  left: 1061px;
-  top: 705px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 105.3%;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  color: #fff;
-}
-
-.talk a {
-  position: absolute;
-  width: 182px;
-  height: 30px;
-  left: 703px;
-  top: 1044px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 105.3%;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-}
-
-.see-live-content a:hover {
+.see-live-content:hover {
   text-decoration: none;
+  color: #fff;
 }
 
-.see-source {
-  position: absolute;
+.page-header-details .see-source {
   width: 225px;
   height: 59px;
-  left: 986px;
-  top: 687px;
+  margin-top: 321px;
+  justify-content: center;
   background: #fa4969;
   border-radius: 60px;
+  border-color: #fa4969;
 }
 
-.see-source-content a:hover {
+.page-header-details .see-live:focus,
+.page-header-details .see-source:focus {
+  outline: none;
+}
+
+.see-source-content:hover {
   text-decoration: none;
+  color: #fff;
 }
 
 .brand-section {
-  position: absolute;
   width: 128px;
   height: 29px;
-  left: 301px;
-  top: 780px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -149,112 +131,150 @@
 }
 
 .html-css-btn {
-  position: absolute;
   width: 91px;
   height: 30px;
-  left: 302px;
-  top: 851px;
   background: #4f5461;
   border-radius: 40px;
 }
 
 .html-css {
-  position: absolute;
   width: 81px;
   height: 21px;
-  left: 307px;
-  top: 857px;
-  font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
-
-  /* identical to box height */
   text-align: center;
   color: #e6e9f0;
 }
 
 .ror-btn {
-  position: absolute;
-  width: 111px;
+  width: 92px;
   height: 30px;
-  left: 400px;
-  top: 851px;
   background: #4f5461;
   border-radius: 40px;
 }
 
 .ror {
-  position: absolute;
   width: 92px;
   height: 21px;
-  left: 410px;
-  top: 856px;
-  font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
-
-  /* identical to box height */
   text-align: center;
   color: #e6e9f0;
 }
 
 .javascript-btn {
-  position: absolute;
   width: 91px;
   height: 30px;
-  left: 518px;
-  top: 851px;
   background: #4f5461;
   border-radius: 40px;
 }
 
 .javascript {
-  position: absolute;
   width: 91px;
   height: 21px;
-  left: 518px;
-  top: 856px;
-  font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 21px;
-
-  /* identical to box height */
   text-align: center;
   color: #e6e9f0;
 }
 
 .details-details {
-  position: absolute;
-  width: 620px;
   height: 141px;
-  left: 303px;
-  top: 888px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 120%;
-
-  /* or 17px */
   color: #737986;
 }
 
 .talk-btn {
-  position: absolute;
   width: 225px;
   height: 59px;
-  left: 634px;
-  top: 1028px;
   background: #fa4969;
   border-radius: 60px;
 }
 
-.talk a:hover {
+.talk:hover {
   text-decoration: none;
+  color: #fff;
+}
+
+.languages-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+@media (max-width: 767px) {
+  .page-header-details .words {
+    font-size: 25px;
+    width: 300px;
+  }
+
+  .page-header-details .occupation-details {
+    font-size: 13px;
+  }
+
+  .brand-section {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .languages-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .javascript-btn {
+    margin-top: 15px;
+  }
+
+  .ror-btn {
+    margin-top: 15px;
+  }
+
+  .page-header-details {
+    height: 347px;
+  }
+}
+
+@media (max-width: 576px) {
+  .page-header-details .see-live {
+    margin-top: 126px;
+  }
+
+  .page-header-details .words {
+    font-size: 33px;
+    width: unset;
+  }
+
+  h5.about-me {
+    margin-top: -75px !important;
+  }
+
+  .languages-section {
+    margin-top: -10px !important;
+  }
+
+  .details-about {
+    margin-top: -10px !important;
+  }
+
+  .body {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 335px) {
+  .page-header-details .see-live {
+    margin-top: 92px !important;
+  }
 }

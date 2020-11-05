@@ -26,39 +26,28 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
 }
 
 .ellipse {
   border-radius: 50%;
-  position: absolute;
   width: 86px;
   height: 86px;
-  left: 90px;
-  top: 47px;
   background: #4456fb;
 }
 
 .cp {
-  position: absolute;
   width: 43px;
   height: 29px;
-  left: 114px;
-  top: 75px;
-  font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: 800;
   font-size: 28px;
   line-height: 105.3%;
   color: #fff;
+  text-align: center;
 }
 
 .intro {
-  position: absolute;
-  width: 193px;
-  height: 276px;
-  left: 90px;
-  top: 215px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;

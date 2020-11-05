@@ -1,37 +1,9 @@
-.main-body {
-  position: relative;
-  width: 1440px;
-  height: 3161px;
-  background: #fff;
-  top: -260px;
-}
-
-.background-header {
-  position: absolute;
-  width: 1880px;
-  height: 1056px;
-  left: 283px;
-  top: -170px;
-}
-
 .page-header {
-  position: absolute;
-  width: 1139px;
-  height: 686px;
-  left: 301px;
-  top: -1px;
   background: linear-gradient(234.04deg, #2f19a7 0%, #4052f0 71.02%), url(asset_path('shutterstock.png'));
   background-blend-mode: screen;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .name-section {
-  position: absolute;
-  width: 721px;
-  height: 100px;
-  left: 513px;
-  top: 160px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: bold;
   font-size: 88px;
@@ -40,22 +12,12 @@
 }
 
 .rectangle-icons {
-  position: absolute;
-  width: 833px;
-  height: 51px;
-  left: 517px;
-  top: 417px;
   background: #fff;
   border-radius: 60px;
 }
 
 .occupation {
-  position: absolute;
-  width: 531px;
   height: 29px;
-  left: 515px;
-  top: 251px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -64,12 +26,6 @@
 }
 
 .description {
-  position: absolute;
-  width: 406px;
-  height: 136px;
-  left: 517px;
-  top: 305px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -78,12 +34,8 @@
 }
 
 .works-social-media {
-  position: absolute;
   width: 254px;
   height: 34px;
-  left: 545px;
-  top: 434px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -92,60 +44,38 @@
 }
 
 .github-icon {
-  position: absolute;
   width: 27.46px;
   height: 27px;
-  left: 1109px;
-  top: 439px;
 }
 
 .twitter-icon {
-  position: absolute;
   width: 27px;
   height: 22.31px;
-  left: 1149px;
-  top: 438px;
 }
 
 .linkedin-icon {
-  position: absolute;
   width: 16.16px;
   height: 16.28px;
-  left: 1189px;
-  top: 438.29px;
 }
 
 .angellist-icon {
-  position: absolute;
   width: 28px;
   height: 28px;
-  left: 1229px;
-  top: 438px;
 }
 
 .medium-icon {
-  position: absolute;
   width: 16.16px;
   height: 16.28px;
-  left: 1269px;
-  top: 438.29px;
 }
 
 .blogger-icon {
-  position: absolute;
   width: 16.16px;
   height: 16.28px;
-  left: 1309.54px;
-  top: 438.29px;
 }
 
 .portfolio-title {
-  position: absolute;
   width: 531px;
   height: 29px;
-  left: 515px;
-  top: 710px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -153,75 +83,38 @@
   color: #4f5461;
 }
 
-.project-1 a {
-  position: absolute;
-  width: 406px;
+.project-1 {
+  width: 300px;
   height: 280px;
-  left: 517px;
-  top: 788px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-blogger.png')) 22% 16% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('thoughtstar.png')) 0% 16% no-repeat;
+  background-size: cover;
   border: 1px solid rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
   border-radius: 10px;
 }
 
-.project-2 a {
-  position: absolute;
-  width: 406px;
+.project-2 {
+  width: 300px;
   height: 280px;
-  left: 944px;
-  top: 788px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('thoughtstar.png')) 99% 14% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('todolist.png')) 31% 31% no-repeat;
   border-radius: 10px;
 }
 
-.project-3 a {
-  position: absolute;
-  width: 406px;
+.project-3 {
   height: 280px;
-  left: 517px;
-  top: 1085px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-events.png')) 52.5% 10% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('bedance.png')) 1% 12% no-repeat;
   border-radius: 10px;
 }
 
-.project-4 a {
-  position: absolute;
-  width: 406px;
+.project-4 {
   height: 280px;
-  left: 944px;
-  top: 1085px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-members-only.png')) 49.5% 27% no-repeat;
-  border-radius: 10px;
-}
-
-.project-5 a {
-  position: absolute;
-  width: 406px;
-  height: 280px;
-  left: 517px;
-  top: 1382px;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('screenshot-twittter.png')) 15% 9% no-repeat;
-  border-radius: 10px;
-}
-
-.project-6 a {
-  position: absolute;
-  width: 406px;
-  height: 280px;
-  left: 944px;
-  top: 1382px;
-  background: url(asset_path('spaza-screenshot.png')) 15% 12% no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('xextris.png')) 50.5% 32% no-repeat;
   border-radius: 10px;
 }
 
 .about-me {
-  position: absolute;
   width: 122px;
   height: 29px;
-  left: 517px;
-  top: 1762px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -230,12 +123,8 @@
 }
 
 .details {
-  position: absolute;
   width: 405px;
   height: 111px;
-  left: 517px;
-  top: 1814px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -243,48 +132,27 @@
   color: #737986;
 }
 
-.resume {
-  position: absolute;
-  width: 193px;
-  height: 59px;
-  left: 517px;
-  top: 1955px;
+.get-my-resume {
+  padding: 30px;
   background: #fa4969;
   border-radius: 60px;
-}
-
-.get-my-resume a {
-  position: absolute;
-  width: 156.12px;
-  height: 19px;
-  left: 537.44px;
-  top: 1977px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 105.3%;
-  text-align: center;
+  display: flex;
+  align-items: center;
   color: #fff;
 }
 
-.languages {
-  position: absolute;
-  width: 266px;
-  height: 341px;
-  left: 517px;
-  top: 2034px;
-  background: #f5f8fd;
-  border-radius: 10px;
+.get-my-resume:hover {
+  text-decoration: none;
+  color: #fff;
 }
 
 .languages-title {
-  position: absolute;
   width: 109px;
   height: 23px;
-  left: 545px;
-  top: 2065px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -293,12 +161,8 @@
 }
 
 .languages-list {
-  position: absolute;
   width: 211px;
   height: 194px;
-  left: 545px;
-  top: 2106px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -313,23 +177,18 @@
   padding-left: 0;
 }
 
-.frameworks {
-  position: absolute;
-  width: 267px;
-  height: 341px;
-  left: 800px;
-  top: 2034px;
+.languages,
+.frameworks,
+.skills {
+  margin: 5px;
+  margin-top: 80px;
   background: #f5f8fd;
   border-radius: 10px;
 }
 
 .frameworks-title {
-  position: absolute;
   width: 122px;
   height: 23px;
-  left: 826px;
-  top: 2065px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -338,12 +197,8 @@
 }
 
 .frameworks-list {
-  position: absolute;
   width: 217px;
   height: 232px;
-  left: 826px;
-  top: 2106px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -351,23 +206,9 @@
   color: #737986;
 }
 
-.skills {
-  position: absolute;
-  width: 266px;
-  height: 341px;
-  left: 1084px;
-  top: 2034px;
-  background: #f5f8fd;
-  border-radius: 10px;
-}
-
 .skills-title {
-  position: absolute;
   width: 55px;
   height: 23px;
-  left: 1113px;
-  top: 2065px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -376,12 +217,8 @@
 }
 
 .skills-list {
-  position: absolute;
   width: 216px;
   height: 232px;
-  left: 1113px;
-  top: 2106px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -390,12 +227,7 @@
 }
 
 .interested-title {
-  position: absolute;
-  width: 345px;
   height: 29px;
-  left: 517px;
-  top: 2475px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -404,12 +236,7 @@
 }
 
 .interested-content {
-  position: absolute;
-  width: 590px;
   height: 84px;
-  left: 517px;
-  top: 2532px;
-  font-family: Poppins, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -418,21 +245,11 @@
 }
 
 .footer-shape {
-  position: absolute;
-  width: 1139px;
-  height: 556px;
-  left: 301px;
-  top: 2600px;
   background: linear-gradient(234.04deg, #2f19a7 0%, #4052f0 71.02%);
-  transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 .message {
-  position: absolute;
-  width: 672px;
   height: 185px;
-  left: 517px;
-  top: 2691px;
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.07);
   box-sizing: border-box;
@@ -441,11 +258,7 @@
 }
 
 .name-email {
-  position: absolute;
-  width: 332px;
   height: 59px;
-  left: 517px;
-  top: 2611px;
   background: #fff;
   border: 1px solid #accdff;
   box-sizing: border-box;
@@ -454,11 +267,7 @@
 }
 
 .email {
-  position: absolute;
-  width: 323px;
   height: 59px;
-  left: 866px;
-  top: 2611px;
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.07);
   box-sizing: border-box;
@@ -467,15 +276,11 @@
 }
 
 .get-in-touch {
-  position: absolute;
-  width: 242px;
   height: 59px;
-  left: 517px;
-  top: 2917px;
   background: #fa4969;
   border-radius: 60px;
   color: #fff;
-  border-color: #fa4969;
+  border-color: transparent;
 }
 
 .get-my-resume a:hover {
@@ -487,12 +292,7 @@
 }
 
 .my-email {
-  position: absolute;
-  width: 177px;
   height: 34px;
-  left: 1191px;
-  top: 2940px;
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -501,59 +301,40 @@
 }
 
 .footer-github-icon {
-  position: absolute;
   width: 27.46px;
   height: 27px;
-  left: 1098px;
-  top: 2987px;
   color: #fff;
 }
 
 .footer-twitter-icon {
-  position: absolute;
   width: 27px;
   height: 22.31px;
-  left: 1154px;
-  top: 2987px;
   color: #fff;
 }
 
 .footer-linkedin-icon {
-  position: absolute;
   width: 16.16px;
-  height: 16.28px;
-  left: 1208.54px;
   top: 2987px;
   color: #fff;
 }
 
 .footer-angellist-icon {
-  position: absolute;
-  left: 1262.54px;
-  top: 2987px;
-  bottom: 4.9%;
+  width: 27px;
   color: #fff;
 }
 
 .footer-medium-icon {
-  position: absolute;
-  left: 1316.54px;
-  top: 2987px;
-  bottom: 4.93%;
+  width: 27px;
   color: #fff;
 }
 
 .footer-blogger-icon {
-  position: absolute;
-  width: 16.16px;
+  width: 27px;
   height: 16.28px;
-  left: 1362.54px;
-  top: 2987px;
   color: #fff;
 }
 
 form input[type="text"] {
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -564,6 +345,32 @@ form input[type="text"] {
   padding-left: 10px;
 }
 
-form input[type="submit"] {
-  font-family: Roboto, "Roboto Condensed", Consolas, monaco, "Ubuntu Mono", courier, monospace;
+@media (min-width: 768px) {
+  .page-header {
+    height: 686px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .occupation {
+    font-size: 20px;
+  }
+
+  .name-section {
+    font-size: 35px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+
+  .get-my-resume {
+    margin-top: 7.5rem !important;
+  }
+}
+
+@media (min-width: 320px) {
+  .blogger-icon {
+    display: none !important;
+  }
 }
