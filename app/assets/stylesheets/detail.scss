@@ -13,7 +13,8 @@
 
 .page-header-details {
   height: 547px;
-  background: linear-gradient(257.1deg, #2f19a7 27.51%, #4052f0 113.53%), url(asset_path("unsplash.jpg"));
+  background: linear-gradient(257.1deg, #2f19a7 27.51%, #4052f0 113.53%), url(asset_path("support-team.png"));
+  background-blend-mode: screen;
 }
 
 .page-header-details .words {
