@@ -397,7 +397,7 @@ form input[type="text"] {
 }
 
 .custom-shape-divider-bottom-1605703852 .shape-fill {
-  fill: #FFFFFF;
+  fill: #fff;
 }
 
 .wrapper-el {
@@ -421,7 +421,7 @@ form input[type="text"] {
 }
 
 .custom-shape-divider-top-1605710007 .shape-fill {
-  fill: #FFFFFF;
+  fill: #fff;
 }
 
 @media (min-width: 768px) {
@@ -434,15 +434,19 @@ form input[type="text"] {
   .occupation {
     font-size: 20px;
   }
+
   .name-section {
     font-size: 35px;
   }
+
   .description {
     font-size: 12px;
   }
+
   .get-my-resume {
     margin-top: 7.5rem !important;
   }
+
   .centered-posn {
     display: grid;
     place-items: center;
