@@ -97,9 +97,6 @@
   line-height: 1.5rem;
 }
 
-
-/* # col-md-5 col-12  m-md-2 */
-
 .project-1 {
   grid-column: span 1;
   grid-row: 1/5;
@@ -378,9 +375,58 @@ form input[type="text"] {
   font-size: 1rem;
 }
 
+.tech {
+  color: #4052f0;
+}
+
+.custom-shape-divider-bottom-1605703852 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1605703852 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1605703852 .shape-fill {
+  fill: #FFFFFF;
+}
+
+.wrapper-el {
+  position: relative;
+}
+
+.custom-shape-divider-top-1605710007 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1605710007 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1605710007 .shape-fill {
+  fill: #FFFFFF;
+}
+
 @media (min-width: 768px) {
   .page-header {
-    height: 686px;
+    height: 676px;
   }
 }
 
@@ -406,5 +452,17 @@ form input[type="text"] {
 @media (min-width: 320px) {
   .blogger-icon {
     display: none !important;
+  }
+}
+
+@media (max-width: 823px) {
+  .name-section {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 362px) {
+  .name-section {
+    font-size: 35px;
   }
 }
