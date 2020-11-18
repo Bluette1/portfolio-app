@@ -97,6 +97,7 @@
   line-height: 1.5rem;
 }
 
+
 /* # col-md-5 col-12  m-md-2 */
 
 .project-1 {
@@ -372,6 +373,11 @@ form input[type="text"] {
   grid-template-rows: 4fr 1fr;
 }
 
+.tech-stack {
+  color: #4052f0;
+  font-size: 1rem;
+}
+
 @media (min-width: 768px) {
   .page-header {
     height: 686px;
@@ -382,19 +388,15 @@ form input[type="text"] {
   .occupation {
     font-size: 20px;
   }
-
   .name-section {
     font-size: 35px;
   }
-
   .description {
     font-size: 12px;
   }
-
   .get-my-resume {
     margin-top: 7.5rem !important;
   }
-
   .centered-posn {
     display: grid;
     place-items: center;
