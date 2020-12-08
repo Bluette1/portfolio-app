@@ -73,7 +73,8 @@
   height: 16.28px;
 }
 
-.portfolio-title {
+.portfolio-title,
+.about-title {
   width: 531px;
   height: 29px;
   font-style: normal;
@@ -83,8 +84,23 @@
   color: #4f5461;
 }
 
+.article-description {
+  grid-column: span 1;
+  grid-row: 5/6;
+}
+
+.article-description a {
+  text-decoration: none;
+  color: #fa4969;
+}
+
+.article-description-text {
+  line-height: 1.5rem;
+}
+
 .project-1 {
-  width: 300px;
+  grid-column: span 1;
+  grid-row: 1/5;
   height: 280px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('thoughtstar.png')) 0% 16% no-repeat;
   background-size: cover;
@@ -94,21 +110,25 @@
 }
 
 .project-2 {
-  width: 300px;
+  grid-column: span 1;
+  grid-row: 1/5;
   height: 280px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('todolist.png')) 31% 31% no-repeat;
+  background-size: cover;
   border-radius: 10px;
 }
 
 .project-3 {
   height: 280px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('bedance.png')) 1% 12% no-repeat;
+  background-size: cover;
   border-radius: 10px;
 }
 
 .project-4 {
   height: 280px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 98.35%), url(asset_path('xextris.png')) 50.5% 32% no-repeat;
+  background-size: cover;
   border-radius: 10px;
 }
 
@@ -345,9 +365,69 @@ form input[type="text"] {
   padding-left: 10px;
 }
 
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4fr 1fr;
+}
+
+.tech-stack {
+  color: #4052f0;
+  font-size: 1rem;
+}
+
+.tech {
+  color: #4052f0;
+}
+
+.custom-shape-divider-bottom-1605703852 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1605703852 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-bottom-1605703852 .shape-fill {
+  fill: #fff;
+}
+
+.wrapper-el {
+  position: relative;
+}
+
+.custom-shape-divider-top-1605710007 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1605710007 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+}
+
+.custom-shape-divider-top-1605710007 .shape-fill {
+  fill: #fff;
+}
+
 @media (min-width: 768px) {
   .page-header {
-    height: 686px;
+    height: 676px;
   }
 }
 
@@ -367,10 +447,27 @@ form input[type="text"] {
   .get-my-resume {
     margin-top: 7.5rem !important;
   }
+
+  .centered-posn {
+    display: grid;
+    place-items: center;
+  }
 }
 
 @media (min-width: 320px) {
   .blogger-icon {
     display: none !important;
+  }
+}
+
+@media (max-width: 823px) {
+  .name-section {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 362px) {
+  .name-section {
+    font-size: 35px;
   }
 }
