@@ -454,9 +454,10 @@ form input[type="text"] {
   }
 }
 
-@media (min-width: 320px) {
+// @media (min-width: 320px) {
+@media (max-width: 320px) {
   .blogger-icon {
-    display: none !important;
+    // display: none !important;
   }
 }
 
